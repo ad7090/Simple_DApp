@@ -1,0 +1,30 @@
+{
+  "name": "referral",
+  "version": "1.0.0",
+  "description": "referral AI find Freind",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-rate-limit": "^5.0.0",
+    "jsonwebtoken": "^8.5.0",
+    "moment-jalaali": "^0.8.3",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pm2": "^4.2.3",
+    "web3": "^1.7.1"
+  }
+}
